@@ -1,2 +1,30 @@
-# Banco-de-Dados-Hospital
-Este projeto de banco de dados atende aos requisitos descritos na descrição. O script SQL cria as tabelas necessárias para armazenar as informações de pacientes, médicos, consultas, internações, quartos e enfermeiros. As tabelas estão relacionadas entre si de acordo com os requisitos descritos.
+<h1 align='center'>Criando o Relacionamento do Banco para um Hospital</h1>
+
+<h3>🔹Parte 1 - Diagrama Entidade Relacionamento</h3>
+<p>
+*O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.*
+
+*Os pacientes também precisam de cadastro, contendo dados pessoais (nome, data de nascimento, endereço, telefone e e-mail), documentos (CPF e RG) e convênio. Para cada convênio, são registrados nome, CNPJ e tempo de carência.*
+
+*As consultas também têm sido registradas em planilhas, com data e hora de realização, médico responsável, paciente, valor da consulta ou nome do convênio, com o número da carteira. Também é necessário indicar na consulta qual a especialidade buscada pelo paciente.*
+
+*Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.*
+</p>
+<br>
+
+![image](https://github.com/KaiqueTeruel/Banco-de-Dados-Hospital/assets/82835307/d6c54f80-2c96-4652-80cd-9fd32e53bcbc)
+<hr>
+<h3>🔹Parte 2 - Diagrama Entidade Relacionamento</h3>
+<p>
+*No hospital, as internações têm sido registradas por meio de formulários eletrônicos que gravam os dados em arquivos.*
+
+*As internações precisam ser vinculadas a quartos, com a numeração e o tipo.*
+
+*Cada tipo de quarto tem sua descrição e o seu valor diário (a princípio, o hospital trabalha com apartamentos, quartos duplos e enfermaria).*
+
+*Também é necessário controlar quais profissionais de enfermaria estarão responsáveis por acompanhar o paciente durante sua internação. Para cada enfermeiro(a), é necessário nome, CPF e registro no conselho de enfermagem (CRE).*
+
+Por último, crie um script SQL para a geração do banco de dados
+
+![image](https://github.com/KaiqueTeruel/Banco-de-Dados-Hospital/assets/82835307/f459c328-ba40-40cd-a3f0-89888d10e935)
+<hr>
