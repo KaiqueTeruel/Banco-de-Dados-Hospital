@@ -12,7 +12,8 @@
 </p>
 <br>
 
-![image](https://github.com/KaiqueTeruel/Banco-de-Dados-Hospital/assets/82835307/d6c54f80-2c96-4652-80cd-9fd32e53bcbc)
+![DER - Inicio](https://github.com/KaiqueTeruel/Banco-de-Dados-Hospital/assets/82835307/e59fd9f4-609d-42d3-b2c8-b583a8e0dfed)
+
 <hr>
 <h3>🔹Parte 2 - Diagrama Entidade Relacionamento</h3>
 <p>
@@ -26,5 +27,6 @@
 
 Por último, crie um script SQL para a geração do banco de dados
 
-![image](https://github.com/KaiqueTeruel/Banco-de-Dados-Hospital/assets/82835307/f459c328-ba40-40cd-a3f0-89888d10e935)
+![DER - Final](https://github.com/KaiqueTeruel/Banco-de-Dados-Hospital/assets/82835307/f3436920-4b08-41cb-a0b2-4232aefc90cd)
+
 <hr>
